@@ -2,11 +2,17 @@
     "configurations": [
         {
             "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/11",
+                "/usr/include/SFML"
+            ],
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
-            "cppStandard": "c++17",
+            "cppStandard": "c++20",
             "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [],
             "browse": {
                 "path": [
                     "${workspaceFolder}"
